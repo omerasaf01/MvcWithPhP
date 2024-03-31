@@ -1,0 +1,24 @@
+{
+  "name": "MvcWithPhP",
+  "version": "1.0.0",
+  "description": "This project mission is make mvc pattern like a .Net Core project. I can develop this repo but I dont have any time right now",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "npx tailwindcss -i ./Views/Assets/css/input.css -o ./Views/Assets/css/style.css --minify",
+    "watch": "npx tailwindcss -i ./Views/Assets/css/input.css -o ./Views/Assets/css/style.css --minify --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omerasaf01/MvcWithPhP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omerasaf01/MvcWithPhP/issues"
+  },
+  "homepage": "https://github.com/omerasaf01/MvcWithPhP#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

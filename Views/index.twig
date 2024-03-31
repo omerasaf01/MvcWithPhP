@@ -8,11 +8,11 @@
 </head>
 <body>
     {% include "/Components/navbar.twig" %}
-    <h1>Hello, {{ name }} {{ surname }}</h1>
-    <h1>Deneme</h1>
+    <h1 class="text-xl">Hello, {{ name }} {{ surname }}</h1>
+    <h1 class="text-xl">Deneme</h1>
     {% if age < 18 %}
         You are over the age
     {% endif %}
-    <h2> {{ url }} </h2>
+    <h2 class="text-md"> {{ url }} </h2>
 </body>
 </html>
